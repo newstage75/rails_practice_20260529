@@ -2,6 +2,13 @@
 
 <%= render @user %>
 
+<% if @user.microposts.any? %>
+  <p>投稿数：<%= @user.microposts.count %>件</p>
+  <p>First micropost: <%= @user.microposts.first.content %></p>
+<% else %>
+  <p>まだ投稿はありません。</p>
+<% end %>
+
 <div>
   <%= link_to "Edit this user", edit_user_path(@user) %> |
   <%= link_to "Back to users", users_path %>

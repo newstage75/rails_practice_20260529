@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Rails (rails new 実行後に本格的な .gitignore が生成される)
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep

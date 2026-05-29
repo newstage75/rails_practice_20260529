@@ -11,17 +11,17 @@
 
 ## 環境準備
 - [x] Docker Desktop 最新化（4.75.0 / Docker 29.5.2 / Compose v5.1.3）
-- [ ] `docker-compose.yml` / `Dockerfile` 用意
-- [ ] `docker compose run web rails new .` でアプリ生成
-- [ ] `docker compose up` で localhost:3000 が表示される
+- [x] `docker-compose.yml` / `Dockerfile` 用意
+- [x] `rails new`（PostgreSQL構成 / concurrent-ruby 1.3.4 固定で起動）
+- [x] `docker compose up` で localhost:3000 に "Yay! You're on Rails!" 表示
 
 ## 第1章 ゼロからデプロイまで
-- [ ] 1.1 はじめに
-- [ ] 1.2 動作する環境（Docker読み替え）
-- [ ] 1.3 最初のアプリケーション
-- [ ] 1.4 Gitによるバージョン管理
-- [ ] 1.5 デプロイ
-- [ ] 1.6 演習
+- [x] 1.1 はじめに（読む）
+- [x] 1.2 動作する環境（Docker環境で構築済み）
+- [x] 1.3 最初のアプリケーション（hello, world! 表示まで完了）
+- [x] 1.4 Gitによるバージョン管理（git init + GitHub公開済み）
+- [x] 1.5 デプロイ（ローカルのみで実習）
+- [x] 1.6 演習
 
 ## 第2章 Toyアプリケーション
 - [ ] 2.1 アプリケーションの計画
